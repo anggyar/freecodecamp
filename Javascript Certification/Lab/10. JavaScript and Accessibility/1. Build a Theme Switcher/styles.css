@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  transition:
+    background 0.3s,
+    color 0.3s;
+}
+body.theme-dark {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+
+body.theme-light {
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  width: max-content;
+  min-width: 16ch;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 8px;
+  /* margin-top: 4px; */
+}
+
+li:hover {
+  background: #eee;
+}
+
+#status {
+  text-align: center;
+  min-height: 20px;
+}
